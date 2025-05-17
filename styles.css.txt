@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6a4c9c; /* رنگ بنفش */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    margin: 20px;
+}
+
+#hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #3ac1b5; /* رنگ سبز */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #6a4c9c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

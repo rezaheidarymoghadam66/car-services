@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درباره ما</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>درباره ما</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-us">
+        <p>متن درباره ما را اینجا قرار دهید...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 خدمات امداد خودرو و یدک کشی</p>
+    </footer>
+</body>
+</html>
