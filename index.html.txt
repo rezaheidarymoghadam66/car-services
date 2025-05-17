@@ -19,7 +19,6 @@
     </header>
 
     <section id="hero">
-        <img src="car-image.jpg" alt="خدمات امداد خودرو" id="hero-image">
         <a href="tel:+989123456789" id="contact-link">برای درخواست خدمات تماس بگیرید</a>
     </section>
 
