@@ -1,15 +1,15 @@
 /* تنظیمات کلی */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
-/* هدر سایت */
+/* هدر */
 header {
-    background-color: #5b2b9b; /* بنفش تیره */
+    background-color: #5b2b9b;
     color: white;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header h1 {
     margin: 0;
 }
 
-/* منو (ناوبری) */
+/* ناوبری */
 nav ul {
     list-style: none;
     padding: 0;
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #a4e4ff; /* رنگ آبی روشن برای هاور */
+    color: #a4e4ff;
 }
 
 /* بخش Hero */
@@ -49,9 +49,16 @@ nav ul li a:hover {
 
 #hero-image {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;
+    border-radius: 15px;
+}
+
+#contact-info {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
     border-radius: 10px;
+    color: white;
 }
 
 #contact-link {
@@ -66,7 +73,7 @@ nav ul li a:hover {
 }
 
 #contact-link:hover {
-    background-color: #a4e4ff; /* رنگ آبی روشن */
+    background-color: #a4e4ff;
 }
 
 /* فوتر */
@@ -75,33 +82,36 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }
 
-footer p {
-    margin: 0;
-    font-size: 1em;
-}
-
-/* استایل برای صفحات دیگر */
-section {
-    padding: 20px;
+/* صفحه درباره ما */
+#about {
     margin: 20px;
-    background-color: #ffffff;
+    padding: 20px;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* استایل برای متن‌ها */
-h2 {
-    font-size: 2em;
+#about h2 {
     color: #5b2b9b;
 }
 
-p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
+#about ul {
+    padding-left: 20px;
 }
+
+#about li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* صفحه تماس */
+#contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0,
